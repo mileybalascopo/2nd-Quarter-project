@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Buhay Pisay author</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #c8f7c8;
+            color: #000000;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        .header {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+            background-color: #c8f7c8;
+        }
+
+        .header img {
+            width: 50px;
+            height: 50px;
+        }
+
+        .header a {
+            color: #000000;
+            text-decoration: none;
+            margin: 0 20px;
+            transition: color 0.3s;
+            background-color: #82d682;
+            border: 7px solid #82d682;
+            border-radius: 15px;
+            font-weight: bold;
+            font-family: "Times New Roman", sans-serif;
+            font-size: 30px;
+        }
+
+        .header a:hover {
+            color: #FFBF00;
+            background-color: #defade;
+            border: 7px solid #defade;
+        }
+
+        h2 {
+            text-align: center;
+            background-color: rgba(255, 255, 158, 0.7);
+            font-family: "Times New Roman", sans-serif;
+            padding: 10px;
+        }
+
+        p {
+            font-style: italic;
+            max-width: 100%;
+        }
+
+        .image-container {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .image-container video {
+            max-width: 100%;
+            max-height: 100%;
+            display: block;
+            margin: 0 auto;
+        }
+
+        .sprite,
+        .sprite2,
+		.sprite3,
+        .sprite4 {
+            width: 110px;
+            height: 110px;
+            display: inline-block;
+        }
+		
+		.sprite3 {
+			width: 105px;
+			height: 110px;
+			display: inline-block;
+		}
+
+        .sprite {
+            background: url("sprite.png") no-repeat -205px 0px;
+        }
+
+        .sprite:hover {
+            background: url("sprite.png") no-repeat -205px -109px;
+        }
+
+        .sprite2 {
+            background: url("sprite.png") no-repeat -310px -0px;
+        }
+		
+        .sprite2:hover {
+            background: url("sprite.png") no-repeat -310px -109px;
+        }
+
+        .sprite3 {
+            background: url("sprite.png") no-repeat 0 0;
+        }
+		
+        .sprite3:hover {
+            background: url("sprite.png") no-repeat 0 -109px;
+
+        }
+
+        .sprite4 {
+            background: url("sprite.png") no-repeat -100px 0;
+        }
+		
+        .sprite4:hover {
+            background: url("sprite.png") no-repeat -100px -109px;
+        }
+
+        .sprite-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap; 
+		}
+		
+        h3 {
+            text-align: center;
+        }
+		
+        .additional-div {
+            background-color: #FFF59E;
+            padding: 10px;
+        }
+
+        .footer {
+            text-align: center;
+            padding: 20px;
+            background-color: rgba(255, 255, 158, 0.7);
+            max-width: 100%;
+        }
+
+        .footer a {
+            color: #000000;
+            text-decoration: none;
+        }
+
+        .footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header" style="font-style:italic">
+        <img src="buhaypisaylogo.jpg">
+        <a href="Quarterproject-Buhaypisay_balascopo.html">Home</a>
+        <a href="pisaytour.html">Pisay Connect</a>
+		<a href="secondpage_buhaypisay.html">How to survive Pisay?</a>
+        <a href="author.html"><u>About Author</u></a>
+    </div>
+
+    <img src="header4.png" alt="Buhay Pisay" style="max-width: 100%;">
+    <h2>Miley U. Balascopo</h2>
+
+    <div class="image-container">
+        <video controls autoplay muted loop>
+            <source src="authoryie.mp4" type="video/mp4">
+        </video>
+    </div>
+
+    <div>
+        <p style="padding: 20px;" "text-align: justify;" "margin: 5px auto;">Miley is a 14-year-old student at Philippine Science High School. She likes to study Biology and English and excels in public speaking and innovating. She aims to become a Neurosurgeon someday. Her hobbies are gymnastics, reading books, vlogging, and listening to music. Her favorite book is "The Seven Husbands of Evelyn Hugo." She likes rock music like Paramore, My Chemical Romance, Nirvana, 5SOS, and Kpop music like Stray Kids, Xdinary Heroes, TXT, Le Sserafim, and many more. She made "Buhay Pisay" to share her experience in Pisay and help other Pisay scholars survive their stay in this prestigious school. If you want to know more about Miley's Pisay experience, you can also watch her Youtube Channel.</p>
+    </div>
+	
+	<div class="additional-div"></div>
+	
+    <div>
+        <h3>Miley's social medias</h3>
+
+        <div class="sprite"></div>
+        <a href="https://www.youtube.com/@lifewithmiley3602">Youtube + vlogs</a>
+
+        <div class="sprite2"></div>
+        <a href="https://www.instagram.com/mileyy.iyaa/">Instagram</a>
+
+        <div class="sprite3"></div>
+        <a href="https://www.facebook.com/mileybalascopo?mibextid=vk8aRt">Facebook</a>
+
+
+        <div class="sprite4"></div>
+        <a href="https://twitter.com/mileyy_iya">Twitter</a>
+
+    </div>
+
+    <div class="footer">
+        &copy; 2023 Buhay Pisay. All rights reserved.
+    </div>
+</body>
+
+</html>
